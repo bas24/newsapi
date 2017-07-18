@@ -1,4 +1,4 @@
-Client for newsapi.org api written in Golang
+Client for <a href="https://www.newsapi.org">newsapi.org</a> api written in Golang.
 
 Getting articles:
 
@@ -25,5 +25,15 @@ func main(){
 If you want to get the topic for feed source, just:
 
 ```go
+package main
+
+import(
+	"fmt"
+	"github.com/bas24/newsapi"
+)
+
+func main(){
 	topic := newsapi.GetTopic("bbc-news")
+	fmt.Println(topic)
+}
 ```
