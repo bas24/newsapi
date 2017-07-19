@@ -1,5 +1,8 @@
 Client for <a href="https://www.newsapi.org">newsapi.org</a> api written in Golang.
 
+Install:<br>
+go get github.com/bas24/newsapi
+
 Getting articles:
 
 ```go
